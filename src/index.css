@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#recipe {
+  margin: auto;
+  width: 70%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+}
+img { 
+  size-adjust: auto;
+  width: 60%;
+  height: 60%;
+  border: 2px solid black;
+  border-radius: 9px;
+}
+p { 
+  color:rgb(36, 33, 36);
+  font-family: JetBrains Mono;
+  font-size: smaller;
+}
+h1 { 
+  color:rgb(36, 33, 36);
+  font-family: JetBrains Mono;
+  font-size: 2.5em;
+}
+h3 { 
+  color:rgb(36, 33, 36);
+  font-family: JetBrains Mono;
+}
+h4 { 
+  color:rgb(36, 33, 36);
+  font-family: JetBrains Mono;
+}
+ul { 
+  color:rgb(36, 33, 36);
+  font-family: JetBrains Mono SemiBold;
+  font-size: small;
+}
+body { 
+  background-color: aliceblue; 
+}
